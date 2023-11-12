@@ -49,7 +49,7 @@ thien = h.read()
 h.close()
 print()
 if thien== keyv1 or thien== key:
-    exec(requests.get('https://run.mocky.io/v3/17bf0406-139f-46a9-ad1b-2a76aefb1da1').text)
+    exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/main.py').text)
 else:
      print('\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ')
      print(dau,'\033[1;32mKEY CÓ THỜ HẠN LÀ 1 NGÀY.SAU 1 NGÀY KEY SẼ RESET')
@@ -65,7 +65,7 @@ if keynhap == key or keynhap== keyv1:
     h=open('pvdh.txt',mode='w')
     h.write(keynhap)
     h.close()
-    exec(requests.get('https://pvdhdeptrai.vietnamdev.link/toolpvdh/main').text)
+    exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/main.py').text)
 else:
     print(dau,'\033[1;33m KEY SAI !')
     print("\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = ")
