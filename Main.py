@@ -1,5 +1,3 @@
-# Code by Pê Vê Đê Hắt
-#telegram @pvdh2304
 import requests,os,time,re,json,uuid,random,sys
 from concurrent.futures import ThreadPoolExecutor
 # lấy dữ liệu người dùng
@@ -53,12 +51,12 @@ print("\033[1;31m─────────────────────
 
 chon = int(input('\033[1;31m[\033[1;37m=.=\033[1;31m] \033[1;37m=> \033[1;32mNhập Số \033[1;37m: \033[1;33m'))
 if chon == 1 :
-	exec(requests.get('https://run.mocky.io/v3/8212736b-8cd8-4e3d-a85e-afc630a5d7bc').text)
+	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/rejoinpvdh.py').text)
 if chon == 2 :
-	exec(requests.get('https://run.mocky.io/v3/932ab604-9dcf-4a2f-8ff5-447102d20568').text)
+	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/TDS%20TIKTOK.py').text)
 if chon == 3 :
-	exec(requests.get('https://run.mocky.io/v3/156abd3a-aa08-42df-9f67-9ef916af0502').text)
+	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/view').text)
 if chon == 4 :
-	exec(requests.get('https://run.mocky.io/v3/8606ac2b-ffc0-44bc-bc3d-fd9d55635f71').text)
+	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/Spam Mess').text)
 else :
 	exit()
