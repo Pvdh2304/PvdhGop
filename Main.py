@@ -55,8 +55,8 @@ if chon == 1 :
 if chon == 2 :
 	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/TDS%20TIKTOK.py').text)
 if chon == 3 :
-	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/view').text)
+	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/view.py').text)
 if chon == 4 :
-	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/Spam Mess').text)
+	exec(requests.get('https://raw.githubusercontent.com/Pvdh2304/PvdhGop/main/Spam%20Mess.py').text)
 else :
 	exit()
